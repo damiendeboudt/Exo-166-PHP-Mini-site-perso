@@ -16,7 +16,7 @@ body {
 header, footer {
 	margin: 0;
 	padding: 0;
-	background: cyan;
+	background: #626262;
 }
 footer {
 	position: absolute;
