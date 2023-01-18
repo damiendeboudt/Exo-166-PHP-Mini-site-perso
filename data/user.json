@@ -1,19 +1,19 @@
 {
-    "name": "Doe",
-    "first_name": "Jane",
-    "occupation": "Web developer",
+    "name": "Deboudt",
+    "first_name": "Damien",
+    "occupation": "Formation DWWM",
     "experiences": [
         {
-            "year": 2020,
-            "company": "Samll Startup"
+            "year": 2023,
+            "company": "Formation UpTo Fourmies PHP, JAVASCRIPT"
         },
         {
-            "year": 2019,
-            "company": "World Corp"
+            "year": 2022,
+            "company": "Formation UpTo Fourmies HTML, CSS"
         },
         {
-            "year": 2018,
-            "company": "Formation UpTo Fourmies"
+            "year": 2021,
+            "company": "Cuisinier"
         }
     ]
 }

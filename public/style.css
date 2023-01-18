@@ -10,18 +10,31 @@ html {
 }
 body {
 	text-align: center;
-	font-family: Calibri, serif;
-	background: lightblue;
+	font-family: Century, serif;
+	background: rgba(77, 77, 77, 0.22);
 }
-header, footer {
-	margin: 0;
+header{
 	padding: 0;
-	background: #626262;
+	background-color: #262626;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	margin-top: 2rem;
+	border-bottom: 5px solid #fc8e00;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 10rem;
 }
 footer {
-	position: absolute;
-	top: 750px;
-	width: 100%;
+	background-color: #262626;
+	border-top: 5px solid #fc8e00;
+	color: white;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	height: 10rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 ul {
 	display: flex;
@@ -34,13 +47,56 @@ li {
 }
 a {
 	text-decoration: none;
+	color: #ffffff;
 }
-section, form {
+section{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: #858383;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	height: 50rem;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: start;
+	width: 39%;
+	height: 40rem;
+}
+form > div > input {
+	padding-left: 1rem;
+	border: 1px solid orange;
+	height: 4rem;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px black;
+}
+form >div >label {
+	font-weight: bold;
+	margin-right: 1rem;
+	font-size: 4rem;
+}
+.submit {
+	width: 20rem;
+	margin: 0 auto;
+	border: none;
+	border-radius: 10px;
+}
+.submit:hover{
+	cursor: pointer;
+	background-color: black;
+	color: white;
 }
 section h1 {
 	margin: 8px;
+	color: #000000;
+	font-size: 5rem;
+}
+header > h1 {
+	font-size: 6rem;
+	color: white;
 }

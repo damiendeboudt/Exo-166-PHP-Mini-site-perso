@@ -9,9 +9,7 @@
     <body>
         <header>
             <h1>Damien Deboudt</h1>
-
             <?php
-            include "../parts/menu.php";
-            getPart('menu.php');
+            getPart('menu');
             ?>
         </header>

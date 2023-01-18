@@ -3,9 +3,6 @@
         <p>
             <span>Made with love</span>
         </p>
-        <p>
-            <span>Damien Deboudt</span>
-        </p>
     </div>
 </footer>
 

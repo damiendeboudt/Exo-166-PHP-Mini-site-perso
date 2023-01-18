@@ -24,3 +24,19 @@ function getPart($name) {
 	include __DIR__ . '/../parts/'. $name . '.php';
 }
 
+function getUserData () {
+    $json = file_get_contents('../data/user.json');
+    $obj = json_decode($json);
+
+    if(isset($_GET['page']) && $_GET['page'] == "bio") {
+        echo '<br>';
+        echo "<p>Nom : " . $obj->name . "<br>";
+        echo "<p>Prénom : " . $obj->first_name . "<br>";
+        echo "<p>Occupation : " . $obj->occupation . "<br><br>";
+
+        echo'<p> Experiences <br>';
+        foreach ($obj->experiences as $value){
+            print_r($value->year . " : " . $value->company . "<br>");
+        }
+    }
+}
